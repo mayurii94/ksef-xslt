@@ -2224,7 +2224,7 @@
                         <th class="table-basic__header">Kwota zapłaty częściowej</th>
                         <xsl:if test="tns:Fa/tns:Platnosc/tns:ZaplataCzesciowa/tns:FormaPlatnosci or tns:Fa/tns:Platnosc/tns:ZaplataCzesciowa/tns:PlatnoscInna = '1'">
                           <th class="table-basic__header">Forma płatności</th>
-                        </xsl:if>                          
+                        </xsl:if>
                       </tr>
                     </thead>
                     <tbody>
@@ -3817,7 +3817,7 @@
               <tbody>
                 <xsl:for-each select="tns:MetaDane">
                   <tr>
-                    <th class="table-basic__header"><xsl:value-of select="tns:ZKlucz"/></th>
+                    <th class="table-basic__header" scope="row"><xsl:value-of select="tns:ZKlucz"/></th>
                     <td class="table-basic__cell"><xsl:value-of select="tns:ZWartosc"/></td>
                   </tr>
                 </xsl:for-each>
@@ -3839,7 +3839,7 @@
 
         <!-- Tabele -->
         <xsl:for-each select="tns:Tabela">
-          <xsl:variable name="colCount" select="count(tns:TNaglowek/tns:Kol)"/>
+          <xsl:variable name="IleKol" select="count(tns:TNaglowek/tns:Kol)"/>
 
           <!-- Tabela właściwa: nagłówek, wiersze, podsumowanie -->
           <div class="section-data section-data--margin-top">
@@ -3855,7 +3855,7 @@
                 <tbody>
                   <xsl:for-each select="tns:TMetaDane">
                     <tr>
-                      <th class="table-basic__header"><xsl:value-of select="tns:TKlucz"/></th>
+                      <th class="table-basic__header" scope="row"><xsl:value-of select="tns:TKlucz"/></th>
                       <td class="table-basic__cell"><xsl:value-of select="tns:TWartosc"/></td>
                     </tr>
                   </xsl:for-each>
@@ -3866,7 +3866,7 @@
               <thead>
                 <tr>
                   <xsl:for-each select="tns:TNaglowek/tns:Kol">
-                    <th class="table-basic__header">
+                    <th class="table-basic__header" scope="col">
                       <xsl:value-of select="tns:NKom"/>
                     </th>
                   </xsl:for-each>
@@ -3874,12 +3874,12 @@
               </thead>
               <tbody>
                 <xsl:for-each select="tns:Wiersz">
-                  <xsl:variable name="wkomCount" select="count(tns:WKom)"/>
+                  <xsl:variable name="IleWKom" select="count(tns:WKom)"/>
                   <tr>
                     <xsl:choose>
                       <!-- Wiersz z jedną komórką – rozciągnięcie na całą szerokość (np. nagłówek grupy) -->
-                      <xsl:when test="$wkomCount = 1 and $colCount &gt; 1">
-                        <td class="table-basic__cell" colspan="{$colCount}" style="font-weight:600;background-color:#f6f7fa">
+                      <xsl:when test="$IleWKom = 1 and $IleKol &gt; 1">
+                        <td class="table-basic__header" colspan="{$IleKol}">
                           <xsl:value-of select="tns:WKom"/>
                         </td>
                       </xsl:when>
@@ -3899,7 +3899,7 @@
                   <xsl:for-each select="tns:Suma">
                     <tr>
                       <xsl:for-each select="tns:SKom">
-                        <td class="table-basic__cell" style="font-weight:600;background-color:#f0f0f0">
+                        <td class="table-basic__header">
                           <xsl:value-of select="."/>
                         </td>
                       </xsl:for-each>
