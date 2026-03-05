@@ -31,6 +31,7 @@
       <xsl:call-template name="WarunkiTransakcji"/>
       <xsl:call-template name="WZ"/>
       <xsl:call-template name="Stopka"/>
+      <xsl:call-template name="Zalacznik"/>
       <xsl:call-template name="SystemInfo"/>
     </body>
   </html>
@@ -3785,4 +3786,132 @@
       </xsl:when>
     </xsl:choose>
   </xsl:template>
+
+  <!-- ZAŁĄCZNIK -->
+  <xsl:template name="Zalacznik">
+    <xsl:if test="tns:Zalacznik">
+      <div class="line-basic"><xsl:text> </xsl:text></div>
+      <div class="section-data">
+        <span class="section-data__header section-data__header--h1">Załącznik do faktury</span>
+      </div>
+      <xsl:for-each select="tns:Zalacznik/tns:BlokDanych">
+        <div class="line-basic"><xsl:text> </xsl:text></div>
+        <div class="section-data">
+          <xsl:if test="last() > 1">
+            <span class="section-data__header section-data__header--h1">
+              <xsl:text>Szczegółowe dane załącznika (</xsl:text><xsl:value-of select="position()"/><xsl:text>)</xsl:text>
+            </span>
+          </xsl:if>
+          <xsl:if test="tns:ZNaglowek">
+            <span class="label-data-info label-data-info--vertical-space">
+              <span class="label-data-info--name">Nagłówek bloku danych: </span>
+              <span class="label-data-info--value"><xsl:value-of select="tns:ZNaglowek"/></span>
+            </span>
+          </xsl:if>
+        </div>
+
+        <!-- MetaDane: klucz-wartość -->
+        <xsl:if test="tns:MetaDane">
+          <div class="section-data section-data--margin-top">
+            <table class="table-basic table-basic--auto">
+              <tbody>
+                <xsl:for-each select="tns:MetaDane">
+                  <tr>
+                    <th class="table-basic__header"><xsl:value-of select="tns:ZKlucz"/></th>
+                    <td class="table-basic__cell"><xsl:value-of select="tns:ZWartosc"/></td>
+                  </tr>
+                </xsl:for-each>
+              </tbody>
+            </table>
+          </div>
+        </xsl:if>
+
+        <!-- Tekst: akapity -->
+        <xsl:if test="tns:Tekst/tns:Akapit">
+          <div class="section-data section-data--margin-top">
+            <xsl:for-each select="tns:Tekst/tns:Akapit">
+              <span class="label-data-info">
+                <span class="label-data-info--value"><xsl:value-of select="."/></span>
+              </span>
+            </xsl:for-each>
+          </div>
+        </xsl:if>
+
+        <!-- Tabele -->
+        <xsl:for-each select="tns:Tabela">
+          <xsl:variable name="colCount" select="count(tns:TNaglowek/tns:Kol)"/>
+
+          <!-- Tabela właściwa: nagłówek, wiersze, podsumowanie -->
+          <div class="section-data section-data--margin-top">
+            <xsl:if test="tns:Opis">
+              <span class="section-data__header section-data__header--h1">
+                <xsl:value-of select="tns:Opis"/>
+              </span>
+            </xsl:if>
+
+            <!-- TMetaDane: metadane tabeli -->
+            <xsl:if test="tns:TMetaDane">
+              <table class="table-basic table-basic--auto">
+                <tbody>
+                  <xsl:for-each select="tns:TMetaDane">
+                    <tr>
+                      <th class="table-basic__header"><xsl:value-of select="tns:TKlucz"/></th>
+                      <td class="table-basic__cell"><xsl:value-of select="tns:TWartosc"/></td>
+                    </tr>
+                  </xsl:for-each>
+                </tbody>
+              </table>
+            </xsl:if>
+            <table class="table-basic table-basic--wide">
+              <thead>
+                <tr>
+                  <xsl:for-each select="tns:TNaglowek/tns:Kol">
+                    <th class="table-basic__header">
+                      <xsl:value-of select="tns:NKom"/>
+                    </th>
+                  </xsl:for-each>
+                </tr>
+              </thead>
+              <tbody>
+                <xsl:for-each select="tns:Wiersz">
+                  <xsl:variable name="wkomCount" select="count(tns:WKom)"/>
+                  <tr>
+                    <xsl:choose>
+                      <!-- Wiersz z jedną komórką – rozciągnięcie na całą szerokość (np. nagłówek grupy) -->
+                      <xsl:when test="$wkomCount = 1 and $colCount &gt; 1">
+                        <td class="table-basic__cell" colspan="{$colCount}" style="font-weight:600;background-color:#f6f7fa">
+                          <xsl:value-of select="tns:WKom"/>
+                        </td>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:for-each select="tns:WKom">
+                          <td class="table-basic__cell">
+                            <xsl:value-of select="."/>
+                          </td>
+                        </xsl:for-each>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                  </tr>
+                </xsl:for-each>
+              </tbody>
+              <xsl:if test="tns:Suma">
+                <tfoot>
+                  <xsl:for-each select="tns:Suma">
+                    <tr>
+                      <xsl:for-each select="tns:SKom">
+                        <td class="table-basic__cell" style="font-weight:600;background-color:#f0f0f0">
+                          <xsl:value-of select="."/>
+                        </td>
+                      </xsl:for-each>
+                    </tr>
+                  </xsl:for-each>
+                </tfoot>
+              </xsl:if>
+            </table>
+          </div>
+        </xsl:for-each>
+      </xsl:for-each>
+    </xsl:if>
+  </xsl:template>
+
 </xsl:stylesheet>
