@@ -12,7 +12,7 @@
       <link href="https://fonts.googleapis.com/css?family=Open&#x2B;Sans" rel="stylesheet"/>
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
       <style type="text/css">
-            table{border-collapse:collapse;}tr,td,th,thead,tfoot,td div{page-break-inside:avoid;}thead{display:table-header-group;}tfoot{display:table-row-group;}tr{page-break-inside:avoid;}html{font-size:22px;}a{text-decoration:none;}.keep-together{page-break-inside:avoid;}.break-before{page-break-before:always;}.break-after{page-break-after:always;}.to-right{float:right;}.to-right--with-margin{margin-left:.5rem;width:100%;}.to-left{float:left;}.to-left--with-margin{margin-right:.5rem;width:100%;}.main-header{width:100%;}.ksef-title{font-family:"Montserrat";font-weight:600;line-height:21px;font-size:1rem;color:#343a40;}.ksef-title-wrapper{width:50%;float:left;}.ksef-title--bold{font-weight:700;}.ksef-title--red{color:#dc0032;}.header-info{float:right;width:100%;}.header-info-wrapper{width:50%;float:right;}.header-info .label-data-info{color:#343a40;display:block;text-align:right;float:left;width:100%;}.header-info .label-data-info--value{font-family:"Open Sans";font-weight:400;font-size:.625rem;line-height:18px;}.header-info .label-data-info--value2{font-family:"Montserrat";font-weight:700;font-size:1.33rem;line-height:35px;overflow-wrap:break-word;word-wrap:break-word;hyphens:auto;white-space:normal;}.header-info .label-data-info--name{font-family:"Open Sans";font-weight:600;font-size:.625rem;margin-right:.1rem;}.header-title{float:left;width:100%;}.header-title--label{font-family:"Montserrat";font-weight:700;font-size:1.125rem;line-height:24px;margin-bottom:.9rem;margin-top:.9rem;display:block;}.section-data{width:100%;float:left;page-break-inside:avoid;}.section-data--margin-top{margin-top:.5rem;}.section-data__header{width:100%;display:block;}.section-data__header--h1{font-family:"Open Sans";font-weight:700;font-size:.75rem;line-height:15px;margin:.5rem 0;float:left;}.section-data__header--table{font-family:"Open Sans";font-weight:600;font-size:.562rem;margin:.5rem 0;}.section-data__wrapper-left{width:50%;float:left;padding-right:.5rem;box-sizing:border-box;}.section-data__wrapper-right{width:50%;float:right;padding-right:.5rem;box-sizing:border-box;}.section-data .label-data-info{color:#343a40;display:block;text-align:left;line-height:16px;}.section-data .label-data-info--text-center{text-align:center;}.section-data .label-data-info--height1{margin-top:.6rem;}.section-data .label-data-info--height2{margin-top:3rem;}.section-data .label-data-info--inline{display:inline;}.section-data .label-data-info--header{font-family:"Open Sans";font-weight:700;font-size:.562rem;line-height:16px;}.section-data .label-data-info--single{font-family:"Open Sans";font-weight:400;font-size:.625rem;line-height:18px;}.section-data .label-data-info--half{width:50%;float:left;padding-right:20px;box-sizing:border-box;}.section-data .label-data-info--half:nth-child(even){float:right;}.section-data .label-data-info--right{margin-top:.5rem;float:right;}.section-data .label-data-info--vertical-space{margin-top:.6rem;margin-bottom:.1rem;}.section-data .label-data-info--bottom-space{margin-bottom:.1rem;}.section-data .label-data-info--name{font-family:"Open Sans";font-weight:600;font-size:.562rem;margin-right:.1rem;}.section-data .label-data-info--name2{font-family:"Open Sans";font-weight:700;font-size:.75rem;margin-right:.1rem;}.section-data .label-data-info--value{font-family:"Open Sans";font-weight:400;font-size:.562rem;overflow-wrap:break-word;word-wrap:break-word;hyphens:auto;white-space:normal;}.section-data .label-data-info--value2{font-family:"Open Sans";font-weight:400;font-size:.75rem;overflow-wrap:break-word;hyphens:auto;white-space:normal;}.section-data .label-data-info--value3{font-family:"Open Sans";font-weight:400;font-size:.562rem;overflow-wrap:break-word;word-wrap:break-word;hyphens:auto;white-space:normal;margin-right:.1rem;}.section-data .label-data-info--italic{font-family:"Open Sans";font-weight:400;font-size:.562rem;font-style:italic;}.section-data__qr-wrapper{float:left;padding-right:1.5rem;padding-top:.3rem;padding-bottom:.5rem;width:207px;}.line-basic{width:100%;margin-top:.9rem;margin-bottom:.5rem;float:left;border:none;height:1px;background-color:#bababa;}.table-basic{margin-top:.5rem;border-collapse:collapse;border-spacing:0;table-layout:fixed;width:100%;}.table-basic__blank_row{height:1.1rem !important;background-color:#fff;}.table-basic--large-margin{margin-top:1.1rem;}.table-basic--no-margin{margin-top:0;}.table-basic--auto{width:auto;}.table-basic--wide{width:100%;}.table-basic__header-border{border-bottom:2px solid #343a40;}.table-basic__header{border:1px solid #bababa;padding:8px;text-align:left;background-color:#f6f7fa;font-family:"Open Sans";font-style:normal;font-weight:600;font-size:.5rem;line-height:12px;}.table-basic__header--lp{width:50px;}.table-basic__header--percent80{width:80%;}.table-basic__header--percent67{width:67%;}.table-basic__header--medium-size{min-width:300px;}.table-basic__header--small-txt{text-align:left;font-family:"Open Sans";font-style:normal;font-weight:400;font-size:.5rem;line-height:12px;display:block;}.table-basic__header--nowrap{white-space:nowrap;}.table-basic__cell{border:1px solid #bababa;padding:8px;text-align:left;font-family:"Open Sans";font-style:normal;font-weight:400;font-size:.5rem;line-height:15px;overflow-wrap:break-word;word-wrap:break-word;hyphens:auto;white-space:normal;}.table-basic__cell--to-right{text-align:right;}
+            table{border-collapse:collapse;}tr,td,th,thead,tfoot,td div{page-break-inside:avoid;}thead{display:table-header-group;}tfoot{display:table-row-group;}tr{page-break-inside:avoid;}html{font-size:22px;}a{text-decoration:none;}.keep-together{page-break-inside:avoid;}.break-before{page-break-before:always;}.break-after{page-break-after:always;}.to-right{float:right;}.to-right--with-margin{margin-left:.5rem;width:100%;}.to-left{float:left;}.to-left--with-margin{margin-right:.5rem;width:100%;}.main-header{width:100%;}.ksef-title{font-family:"Montserrat";font-weight:600;line-height:21px;font-size:1rem;color:#343a40;}.ksef-title-wrapper{width:50%;float:left;}.ksef-title--bold{font-weight:700;}.ksef-title--red{color:#dc0032;}.header-info{float:right;width:100%;}.header-info-wrapper{width:50%;float:right;}.header-info .label-data-info{color:#343a40;display:block;text-align:right;float:left;width:100%;}.header-info .label-data-info--value{font-family:"Open Sans";font-weight:400;font-size:.625rem;line-height:18px;}.header-info .label-data-info--value2{font-family:"Montserrat";font-weight:700;font-size:1.33rem;line-height:35px;overflow-wrap:break-word;word-wrap:break-word;hyphens:auto;white-space:normal;}.header-info .label-data-info--name{font-family:"Open Sans";font-weight:600;font-size:.625rem;margin-right:.1rem;}.header-title{float:left;width:100%;}.header-title--label{font-family:"Montserrat";font-weight:700;font-size:1.125rem;line-height:24px;margin-bottom:.9rem;margin-top:.9rem;display:block;}.section-data{width:100%;float:left;page-break-inside:avoid;}.section-data--margin-top{margin-top:.5rem;}.section-data__header{width:100%;display:block;}.section-data__header--h1{font-family:"Open Sans";font-weight:700;font-size:.75rem;line-height:15px;margin:.5rem 0;float:left;}.section-data__header--table{font-family:"Open Sans";font-weight:600;font-size:.562rem;margin:.5rem 0;}.section-data__wrapper-left{width:50%;float:left;padding-right:.5rem;box-sizing:border-box;}.section-data__wrapper-right{width:50%;float:right;padding-right:.5rem;box-sizing:border-box;}.section-data .label-data-info{color:#343a40;display:block;text-align:left;line-height:16px;}.section-data .label-data-info--text-center{text-align:center;}.section-data .label-data-info--height1{margin-top:.6rem;}.section-data .label-data-info--height2{margin-top:3rem;}.section-data .label-data-info--inline{display:inline;}.section-data .label-data-info--header{font-family:"Open Sans";font-weight:700;font-size:.562rem;line-height:16px;}.section-data .label-data-info--single{font-family:"Open Sans";font-weight:400;font-size:.625rem;line-height:18px;}.section-data .label-data-info--half{width:50%;float:left;padding-right:20px;box-sizing:border-box;}.section-data .label-data-info--half:nth-child(even){float:right;}.section-data .label-data-info--right{margin-top:.5rem;float:right;}.section-data .label-data-info--vertical-space{margin-top:.6rem;margin-bottom:.1rem;}.section-data .label-data-info--bottom-space{margin-bottom:.1rem;}.section-data .label-data-info--name{font-family:"Open Sans";font-weight:600;font-size:.562rem;margin-right:.1rem;}.section-data .label-data-info--name2{font-family:"Open Sans";font-weight:700;font-size:.75rem;margin-right:.1rem;}.section-data .label-data-info--value{font-family:"Open Sans";font-weight:400;font-size:.562rem;overflow-wrap:break-word;word-wrap:break-word;hyphens:auto;white-space:normal;}.section-data .label-data-info--value2{font-family:"Open Sans";font-weight:400;font-size:.75rem;overflow-wrap:break-word;hyphens:auto;white-space:normal;}.section-data .label-data-info--value3{font-family:"Open Sans";font-weight:400;font-size:.562rem;overflow-wrap:break-word;word-wrap:break-word;hyphens:auto;white-space:normal;margin-right:.1rem;}.section-data .label-data-info--italic{font-family:"Open Sans";font-weight:400;font-size:.562rem;font-style:italic;}.section-data__qr-wrapper{float:left;padding-right:1.5rem;padding-top:.3rem;padding-bottom:.5rem;width:207px;}.line-basic{width:100%;margin-top:.9rem;margin-bottom:.5rem;float:left;border:none;height:1px;background-color:#bababa;}.table-basic{margin-top:.5rem;border-collapse:collapse;border-spacing:0;table-layout:fixed;width:100%;}.table-basic__blank_row{height:1.1rem !important;background-color:#fff;}.table-basic--large-margin{margin-top:1.1rem;}.table-basic--no-margin{margin-top:0;}.table-basic--auto{width:auto;}.table-basic--wide{width:100%;}.table-basic__header-border{border-bottom:2px solid #343a40;}.table-basic__header{border:1px solid #bababa;padding:8px;text-align:left;background-color:#f6f7fa;font-family:"Open Sans";font-style:normal;font-weight:600;font-size:.5rem;line-height:12px;}.table-basic__header--lp{width:50px;}.table-basic__header--percent80{width:80%;}.table-basic__header--percent67{width:67%;}.table-basic__header--medium-size{min-width:300px;}.table-basic__header--small-txt{text-align:left;font-family:"Open Sans";font-style:normal;font-weight:400;font-size:.5rem;line-height:12px;display:block;}.table-basic__header--nowrap{white-space:nowrap;}.table-basic__cell{border:1px solid #bababa;padding:8px;text-align:left;font-family:"Open Sans";font-style:normal;font-weight:400;font-size:.5rem;line-height:15px;overflow-wrap:break-word;word-wrap:break-word;hyphens:auto;white-space:normal;}.table-basic__cell--to-right{text-align:right;}.table-basic__header--to-right{text-align:right;}
       </style>
     </head>
     <body>
@@ -31,6 +31,7 @@
       <xsl:call-template name="WarunkiTransakcji"/>
       <xsl:call-template name="WZ"/>
       <xsl:call-template name="Stopka"/>
+      <xsl:call-template name="Zalacznik"/>
       <xsl:call-template name="SystemInfo"/>
     </body>
   </html>
@@ -2223,7 +2224,7 @@
                         <th class="table-basic__header">Kwota zapłaty częściowej</th>
                         <xsl:if test="tns:Fa/tns:Platnosc/tns:ZaplataCzesciowa/tns:FormaPlatnosci or tns:Fa/tns:Platnosc/tns:ZaplataCzesciowa/tns:PlatnoscInna = '1'">
                           <th class="table-basic__header">Forma płatności</th>
-                        </xsl:if>                          
+                        </xsl:if>
                       </tr>
                     </thead>
                     <tbody>
@@ -3785,4 +3786,143 @@
       </xsl:when>
     </xsl:choose>
   </xsl:template>
+
+  <!-- ZAŁĄCZNIK -->
+  <xsl:template name="Zalacznik">
+    <xsl:if test="tns:Zalacznik">
+      <div class="line-basic"><xsl:text> </xsl:text></div>
+      <div class="section-data">
+        <span class="section-data__header section-data__header--h1">Załącznik do faktury</span>
+      </div>
+      <xsl:for-each select="tns:Zalacznik/tns:BlokDanych">        
+        <div class="section-data section-data--margin-top">
+          <xsl:if test="last() > 1">
+            <span class="label-data-info--name">
+              <xsl:text>Szczegółowe dane załącznika (</xsl:text><xsl:value-of select="position()"/><xsl:text>)</xsl:text>
+            </span>
+          </xsl:if>
+          <xsl:if test="tns:ZNaglowek">
+            <span class="label-data-info label-data-info--vertical-space">
+              <span class="label-data-info--name">Nagłówek bloku danych: </span>
+              <span class="label-data-info--value"><xsl:value-of select="tns:ZNaglowek"/></span>
+            </span>
+          </xsl:if>
+        </div>
+
+        <!-- MetaDane: klucz-wartość -->
+        <xsl:if test="tns:MetaDane">
+          <div class="section-data">
+            <table class="table-basic table-basic--auto">
+              <tbody>
+                <xsl:for-each select="tns:MetaDane">
+                  <tr>
+                    <th class="table-basic__header" scope="row"><xsl:value-of select="tns:ZKlucz"/></th>
+                    <td class="table-basic__cell"><xsl:value-of select="tns:ZWartosc"/></td>
+                  </tr>
+                </xsl:for-each>
+              </tbody>
+            </table>
+          </div>
+        </xsl:if>
+
+        <!-- Tekst: akapity -->
+        <xsl:if test="tns:Tekst/tns:Akapit">
+          <div class="section-data section-data--margin-top">
+            <xsl:for-each select="tns:Tekst/tns:Akapit">
+              <span class="label-data-info">
+                <span class="label-data-info--value"><xsl:value-of select="."/></span>
+              </span>
+            </xsl:for-each>
+          </div>
+        </xsl:if>
+
+        <!-- Tabele -->
+        <xsl:for-each select="tns:Tabela">
+          <xsl:variable name="IleKol" select="count(tns:TNaglowek/tns:Kol)"/>
+
+          <!-- Tabela właściwa: nagłówek, wiersze, podsumowanie -->
+          <div class="section-data section-data--margin-top">
+            <xsl:if test="tns:Opis">
+              <span class="label-data-info--name">
+                <xsl:value-of select="tns:Opis"/>
+              </span>
+            </xsl:if>
+
+            <!-- TMetaDane: metadane tabeli -->
+            <xsl:if test="tns:TMetaDane">
+              <table class="table-basic table-basic--auto">
+                <tbody>
+                  <xsl:for-each select="tns:TMetaDane">
+                    <tr>
+                      <th class="table-basic__header" scope="row"><xsl:value-of select="tns:TKlucz"/></th>
+                      <td class="table-basic__cell"><xsl:value-of select="tns:TWartosc"/></td>
+                    </tr>
+                  </xsl:for-each>
+                </tbody>
+              </table>
+            </xsl:if>
+            <table class="table-basic table-basic--wide">
+              <thead>
+                <tr>
+                  <xsl:for-each select="tns:TNaglowek/tns:Kol">
+                    <th class="table-basic__header" scope="col">
+                      <xsl:value-of select="tns:NKom"/>
+                    </th>
+                  </xsl:for-each>
+                </tr>
+              </thead>
+              <tbody>
+                <xsl:for-each select="tns:Wiersz">
+                  <xsl:variable name="IleWKom" select="count(tns:WKom)"/>
+                  <tr>
+                    <xsl:choose>
+                      <!-- Wiersz z jedną komórką – rozciągnięcie na całą szerokość (np. nagłówek grupy) -->
+                      <xsl:when test="$IleWKom = 1 and $IleKol &gt; 1">
+                        <td class="table-basic__header" colspan="{$IleKol}">
+                          <xsl:value-of select="tns:WKom"/>
+                        </td>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:for-each select="tns:WKom">
+                          <xsl:variable name="pozWKom" select="position()"/>
+                          <td class="table-basic__cell">
+                            <!-- sprawdzamy typ kolumny o tej samej pozycji co bieżąca komórka -->
+                            <xsl:variable name="typWKom" select="ancestor::tns:Tabela/tns:TNaglowek/tns:Kol[$pozWKom]/@Typ"/>
+                            <xsl:if test="$typWKom = 'dec' or $typWKom = 'int'">
+                              <xsl:attribute name="class">table-basic__cell table-basic__cell--to-right</xsl:attribute>
+                            </xsl:if>                            
+                            <xsl:value-of select="."/>
+                          </td>
+                        </xsl:for-each>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                  </tr>
+                </xsl:for-each>
+              </tbody>
+              <xsl:if test="tns:Suma">
+                <tfoot>
+                  <xsl:for-each select="tns:Suma">
+                    <tr>
+                      <xsl:for-each select="tns:SKom">
+                        <xsl:variable name="pozSKom" select="position()"/>
+                        <td class="table-basic__header">
+                            <!-- sprawdzamy typ kolumny o tej samej pozycji co bieżąca komórka -->
+                            <xsl:variable name="typSKom" select="ancestor::tns:Tabela/tns:TNaglowek/tns:Kol[$pozSKom]/@Typ"/>
+                            <xsl:if test="$typSKom = 'dec' or $typSKom = 'int'">
+                              <xsl:attribute name="class">table-basic__header table-basic__header--to-right</xsl:attribute>
+                            </xsl:if>                                                    
+                          <xsl:value-of select="."/>
+                        </td>
+                      </xsl:for-each>
+                    </tr>
+                  </xsl:for-each>
+                </tfoot>
+              </xsl:if>
+            </table>
+          </div>
+        </xsl:for-each>
+      </xsl:for-each>
+    </xsl:if>
+  </xsl:template>
+
 </xsl:stylesheet>
