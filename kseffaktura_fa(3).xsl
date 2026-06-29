@@ -2130,11 +2130,11 @@
             <xsl:choose>
               <xsl:when test="tns:Fa/tns:Rozliczenie/tns:DoZaplaty">
                 <span class="label-data-info--name2">Do zapłaty: </span>
-                <span class="label-data-info--value2"><xsl:value-of select="format-number(tns:Fa/tns:Rozliczenie/tns:DoZaplaty, '### ##0,00######', 'european')"/><xsl:text> PLN</xsl:text></span>
+                <span class="label-data-info--value2"><xsl:value-of select="format-number(tns:Fa/tns:Rozliczenie/tns:DoZaplaty, '### ##0,00######', 'european')"/><xsl:text> </xsl:text><xsl:value-of select="tns:Fa/tns:KodWaluty"/></span>
               </xsl:when>
               <xsl:when test="tns:Fa/tns:Rozliczenie/tns:DoRozliczenia">
                 <span class="label-data-info--name2">Do rozliczenia: </span>
-                <span class="label-data-info--value2"><xsl:value-of select="format-number(tns:Fa/tns:Rozliczenie/tns:DoRozliczenia, '### ##0,00######', 'european')"/><xsl:text> PLN</xsl:text></span>
+                <span class="label-data-info--value2"><xsl:value-of select="format-number(tns:Fa/tns:Rozliczenie/tns:DoRozliczenia, '### ##0,00######', 'european')"/><xsl:text> </xsl:text><xsl:value-of select="tns:Fa/tns:KodWaluty"/></span>
               </xsl:when>
             </xsl:choose>
           </span>
